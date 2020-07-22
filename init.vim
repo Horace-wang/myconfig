@@ -39,5 +39,10 @@ map <LEADER>j <C-w>j
 map <LEADER>k <C-w>k
 map <LEADER>l <C-w>l
 map <LEADER>h <C-w>h
+"设置分屏的宽度
+map <up> :res +5<CR>
+map <down> :res -5<CR>
+map <left> :vertical resize-5<CR>
+map <right> :vertical resize+5<CR>
 "设置主题
 let g:airline_theme='angr'
