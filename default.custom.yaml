@@ -1,4 +1,5 @@
 patch:
+  "ascii_composer/switch_key/Shift_R": commit_code
   menu:
     page_size: 6
   schema_list:
